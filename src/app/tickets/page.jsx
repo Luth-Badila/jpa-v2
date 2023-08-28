@@ -1,7 +1,17 @@
+import TicketList from "./ticketList";
 export default function Tickets() {
   return (
-    <main className="flex h-screen items-center justify-center">
-      <h2>Tickets</h2>
+    <main>
+      <nav>
+        <div>
+          <h2>Tickets</h2>
+          <p>
+            <small>Currently open tickets</small>
+          </p>
+        </div>
+      </nav>
+
+      <TicketList />
     </main>
   );
 }
