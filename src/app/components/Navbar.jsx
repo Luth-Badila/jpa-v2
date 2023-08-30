@@ -7,9 +7,7 @@ function Navbar() {
   return (
     <nav>
       <Image src={Logo} alt="Logo" width={30} quality={100} />
-      <h1>My Tickets</h1>
-      <Link href="/">Dashboard</Link>
-      <Link href="/tickets">Tickets</Link>
+      <h1>Jalan Pintas Art</h1>
     </nav>
   );
 }
