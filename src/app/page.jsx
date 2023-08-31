@@ -1,8 +1,8 @@
-import Link from "next/link";
+import HomePage from "./components/Home";
 export default function Home() {
   return (
     <main>
-      <h2>Welcome to Jalan Pintas Art</h2>
+      <HomePage />
     </main>
   );
 }
